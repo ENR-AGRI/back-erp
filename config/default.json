@@ -1,0 +1,22 @@
+{
+    "jwtPrivateKey": "mm",
+    "db": "mongodb+srv://enragri:fdqybyc2xpldzhgk@cluster0.yehoq.mongodb.net/MonBD",
+    "port": "3000",
+    "smtpOptions": {
+      "host": "SSL0.OVH.NET",
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "user": "contact@erpenragri.com",
+        "pass": "**G2loq**"
+      },
+      "tls": {
+        "cipher": "SSLv3",
+        "rejectUnauthorized": false
+      }
+    },
+  
+    "url-front": "https://erpenragri.com",
+  
+    "url-api": "https://api.erpenragri.com"
+  }
