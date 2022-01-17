@@ -1,6 +1,6 @@
 {
     "jwtPrivateKey": "mm",
-    "db": "mongodb+srv://enragri:fdqybyc2xpldzhgk@cluster0.yehoq.mongodb.net/MonBD",
+    "db": "mongodb://localhost/MonBD",
     "port": "3000",
     "smtpOptions": {
       "host": "SSL0.OVH.NET",

@@ -5,10 +5,8 @@ const { User, validateClient } = require("../models/user.model");
 const asyncMiddleware = require("../middleware/async");
 const validateObjectId = require("../middleware/validObjectId");
 const validate = require("../middleware/validateRequest");
-const { Type } = require("../models/type");
-const { IC1 } = require("../models/IC1");
-const { IC2 } = require("../models/IC2");
-const { DescriptionBiblio } = require("../models/DescriptionBiblio");
+
+
 const authorize = require("../middleware/role");
 const authorization = require("../middleware/auth");
 const Helpers = require('../helpers/utilities');
@@ -51,7 +49,7 @@ router.post(
       rue: req.body.rue,
       ville: req.body.ville,
       pays: req.body.pays,
-      type: req.body.type,
+      
       email2: req.body.email2,
       Complement_adresse: req.body.Complement_adresse,
       cp: req.body.cp,
