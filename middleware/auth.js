@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const config = require("config");
-
+//il peut s'authentifier sauf si  sil a un token
 module.exports = function (req, res, next) {
   const token = req.header("x-auth-token");
   console.log("x-auth-token", token);

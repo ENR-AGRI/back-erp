@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
-
+//Creation de table Construction avec tous les attributs qu'on besoin
 var ConstructionSchema = new Schema({
   //construction
   totaux_SS_traitance_Total: String,

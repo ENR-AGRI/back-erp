@@ -1,6 +1,4 @@
-//u need to log err in app => winston library
-//default logger..transport (storage for a log msg from console /file /http),//db : library winston-mongodb
-
+//chaque erreur de login s'affiche ici
 const winston = require("winston");
 require("winston-mongodb");
 const asyncMiddleware = require("../middleware/async");
